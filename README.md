@@ -1,6 +1,6 @@
 ## Hi, I'm Nicolò
 
-I build machine-learning and optimization tools for forecasting and quantitative finance, and I care most about one thing: that the numbers are right.
+I build machine-learning and optimization tools for forecasting and quantitative finance
 
 ### Open source
 
@@ -17,10 +17,10 @@ In review: Microsoft FLAML (approved), the NVIDIA cuOpt interface in CVXPY, Unit
 
 ### Research and projects
 
-- **WorldQuant BRAIN**: Gold level, #2 in Italy, 19 submitted alphas
+- **WorldQuant BRAIN**: #2 in Italy, Gold Level, 19 submitted alphas
 - **Kaggle**: silver medal, 76th of 4,186 teams, AI Agent Security (OpenAI × Google × IEEE)
 - **[MQFS](https://github.com/nicoloangileri/market-states-mqfs)**: open, reproducible quantitative-finance papers, e.g. [market regimes from correlation structure](https://github.com/nicoloangileri/market-states-mqfs), [electricity risk for AI data centres](https://github.com/nicoloangileri/mqfs-compute-energy), [constraint-preserving QAOA on IBM quantum hardware](https://github.com/nicoloangileri/quantum-portfolio-mqfs)
 - **Qiskit Advocate** (IBM Quantum) and solver of Jane Street's monthly puzzles
 
-Open to ML engineering and quantitative developer roles, including remote and part-time contract work.
+Open to ML engineering and quant, swe, data, or anything similar, including remote and part-time contract work or project-contract.
 [LinkedIn](https://www.linkedin.com/in/nicol%C3%B3angileri/)
