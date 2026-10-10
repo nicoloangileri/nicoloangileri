@@ -4,16 +4,18 @@ I build machine-learning and optimization tools for forecasting and quantitative
 
 ### Open source
 
-15 pull requests merged into libraries used across ML and finance, most of them fixing silent numerical errors:
+17 pull requests merged into libraries used across ML, quantum computing and finance, most of them fixing silent numerical errors:
 
 - **Apple MLX**: reductions over very large arrays (32-bit index overflow on CPU and GPU) ([#4549](https://github.com/ml-explore/mlx/pull/4549))
 - **Amazon Chronos**: series lengths for categorical item ids in `predict_df` ([#537](https://github.com/amazon-science/chronos-forecasting/pull/537))
 - **CVXPY** (5): MIP warm start for SCIP ([#3483](https://github.com/cvxpy/cvxpy/pull/3483)), `geo_mean` on any shape ([#3493](https://github.com/cvxpy/cvxpy/pull/3493)), tuple axes in `std`, axis behavior of `cvar`, axis checks for matrix norms
 - **skfolio** (3): VaR, EVaR and sample-weight fixes in the risk measures
 - **NautilusTrader** (2): wrong default moving averages in trading indicators
+- **Pasqal Pulser**: lazy conjugate/negative tensors converted to NumPy without resolving them ([#1130](https://github.com/pasqal-io/Pulser/pull/1130))
+- **gcsopt** (graphs of convex sets): compatibility with the new CVXPY solving chain ([#23](https://github.com/TobiaMarcucci/gcsopt/pull/23))
 - Also **Qdrant**, **NumPyro** and **Qiskit Experiments**
 
-In review: Microsoft FLAML (approved), the NVIDIA cuOpt interface in CVXPY, Unit8 Darts and Nixtla (conformal prediction intervals), QuantEcon.
+In review: **NVIDIA cuOpt** (CI for its CVXPY integration), the NVIDIA cuOpt interface in CVXPY, Microsoft FLAML (approved), Unit8 Darts and Nixtla (conformal prediction intervals), skfolio, QuantEcon.
 
 ### Research and projects
 
