@@ -4,7 +4,7 @@ I build machine-learning and optimization tools for forecasting and quantitative
 
 ### Open source
 
-20 pull requests merged into libraries used across ML, quantum computing and finance, most of them fixing silent numerical errors:
+20 pull requests merged into libraries used across ML, quantum computing and finance
 
 - **NVIDIA cuOpt**: nightly CI for its CVXPY integration on images without a C++ compiler ([#2101](https://github.com/NVIDIA/cuopt/pull/2101))
 - **Apple MLX**: reductions over very large arrays (32-bit index overflow on CPU and GPU) ([#4549](https://github.com/ml-explore/mlx/pull/4549))
