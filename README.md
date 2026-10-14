@@ -26,6 +26,7 @@ In review: the NVIDIA cuOpt interface in CVXPY, Microsoft FLAML (approved), Auto
 - **Kaggle**: silver medal, 76th of 4,186 teams, AI Agent Security (OpenAI × Google × IEEE)
 - **[MQFS](https://github.com/nicoloangileri/market-states-mqfs)**: open, reproducible quantitative-finance papers, e.g. [market regimes from correlation structure](https://github.com/nicoloangileri/market-states-mqfs), [electricity risk for AI data centres](https://github.com/nicoloangileri/mqfs-compute-energy), [constraint-preserving QAOA on IBM quantum hardware](https://github.com/nicoloangileri/quantum-portfolio-mqfs)
 - **Qiskit Advocate** (IBM Quantum) and solver of Jane Street's monthly puzzles
+- **EPFL RSEARCH ASSISTENT**  to Prof. Semyon Malamud (Swiss Finance Institute, EPFL)
 
-Open to ML engineering and quant, swe, data, or anything similar, including remote and part-time contract work or project-contract.
+Open to ML engineering and quant, swe, data, or anything similar, including remote and part-time contract work or project-contract. I'm open for research project too :)
 [LinkedIn](https://www.linkedin.com/in/nicol%C3%B3angileri/)
