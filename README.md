@@ -10,7 +10,7 @@ I build machine-learning and optimization tools for forecasting and quantitative
 - **NVIDIA cuOpt**: nightly CI for its CVXPY integration on images without a C++ compiler ([#2101](https://github.com/NVIDIA/cuopt/pull/2101))
 - **Apple MLX**: reductions over very large arrays (32-bit index overflow on CPU and GPU) ([#4549](https://github.com/ml-explore/mlx/pull/4549))
 - **Amazon Chronos**: series lengths for categorical item ids in `predict_df` ([#537](https://github.com/amazon-science/chronos-forecasting/pull/537))
-- **CVXPY** (6): silent wrong answers on mixed-integer problems with NVIDIA cuOpt ([#3555](https://github.com/cvxpy/cvxpy/pull/3555)), MIP warm start for SCIP ([#3483](https://github.com/cvxpy/cvxpy/pull/3483)), `geo_mean` on any shape ([#3493](https://github.com/cvxpy/cvxpy/pull/3493)), tuple axes in `std`, axis behavior of `cvar`, axis checks for matrix norms
+- **CVXPY** (6; top external contributor by commits in the 90 days to October 22, 2026, and 34th of 239 contributors all time): silent wrong answers on mixed-integer problems with NVIDIA cuOpt ([#3555](https://github.com/cvxpy/cvxpy/pull/3555)), MIP warm start for SCIP ([#3483](https://github.com/cvxpy/cvxpy/pull/3483)), `geo_mean` on any shape ([#3493](https://github.com/cvxpy/cvxpy/pull/3493)), tuple axes in `std`, axis behavior of `cvar`, axis checks for matrix norms
 - **skfolio** (5): VaR, EVaR and sample-weight fixes in the risk measures, drawdown contributions, and the Bodnar-Okhrin shrinkage of expected returns
 - **NautilusTrader** (2): wrong default moving averages in trading indicators
 - **QuantEcon**: ARMA impulse responses and simulations that came out delayed when p > q ([#976](https://github.com/QuantEcon/QuantEcon.py/pull/976))
