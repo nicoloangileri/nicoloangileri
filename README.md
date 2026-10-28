@@ -4,14 +4,14 @@ I build machine-learning and optimization tools for forecasting and quantitative
 
 ### Open source
 
-32 pull requests merged into libraries used across ML, quantum computing and finance
+33 pull requests merged into libraries used across ML, quantum computing and finance
 
 - **OpenAI Tart**: container-registry authentication with spaces between `WWW-Authenticate` directives, as RFC 7235 allows ([#1377](https://github.com/openai/tart/pull/1377))
 - **NVIDIA cuOpt** (2): nightly CI for its CVXPY integration on images without a C++ compiler ([#2101](https://github.com/NVIDIA/cuopt/pull/2101)), and a minimize default for the objective sense of its MPS data model ([#2181](https://github.com/NVIDIA/cuopt/pull/2181))
 - **Apple MLX**: reductions over very large arrays (32-bit index overflow on CPU and GPU) ([#4549](https://github.com/ml-explore/mlx/pull/4549))
 - **Amazon Chronos**: series lengths for categorical item ids in `predict_df` ([#537](https://github.com/amazon-science/chronos-forecasting/pull/537))
 - **QuantLib** (2): underflow in the non-central chi-square distribution ([#2908](https://github.com/lballabio/QuantLib/pull/2908)), and a faster Heston variance mesher for small vol of vol ([#2940](https://github.com/lballabio/QuantLib/pull/2940))
-- **CVXPY** (6; top external contributor by commits in the 90 days to October 22, 2026, and 34th of 239 contributors all time): silent wrong answers on mixed-integer problems with NVIDIA cuOpt ([#3555](https://github.com/cvxpy/cvxpy/pull/3555)), MIP warm start for SCIP ([#3483](https://github.com/cvxpy/cvxpy/pull/3483)), `geo_mean` on any shape ([#3493](https://github.com/cvxpy/cvxpy/pull/3493)), tuple axes in `std`, axis behavior of `cvar`, axis checks for matrix norms
+- **CVXPY** (7; top external contributor by commits in the 90 days to October 22, 2026, and 34th of 239 contributors all time): silent wrong answers on mixed-integer problems with NVIDIA cuOpt ([#3555](https://github.com/cvxpy/cvxpy/pull/3555)), MIP warm start for SCIP ([#3483](https://github.com/cvxpy/cvxpy/pull/3483)), `geo_mean` on any shape ([#3493](https://github.com/cvxpy/cvxpy/pull/3493)), tuple axes in `std`, axis behavior of `cvar`, axis checks for matrix norms, Gurobi's own error message when it fails before finding a solution ([#3574](https://github.com/cvxpy/cvxpy/pull/3574))
 - **skfolio** (6): VaR, EVaR and sample-weight fixes in the risk measures, drawdown contributions, the Bodnar-Okhrin shrinkage of expected returns, and sample weights in the empirical covariance ([#417](https://github.com/skfolio/skfolio/pull/417))
 - **NautilusTrader** (2): wrong default moving averages in trading indicators
 - **QuantEcon**: ARMA impulse responses and simulations that came out delayed when p > q ([#976](https://github.com/QuantEcon/QuantEcon.py/pull/976))
