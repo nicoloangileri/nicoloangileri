@@ -26,13 +26,14 @@ I build machine-learning and optimization tools for forecasting and quantitative
 - **Open GenAI Stack** (formerly Llama Stack): `before` pagination on the vector store list endpoints, which returned the first page instead of the one right before the cursor ([#6813](https://github.com/ogx-ai/ogx/pull/6813))
 - Also **Qdrant**, **NumPyro** (2) and **Qiskit Experiments**
 
-In review: NVIDIA cuOpt (MPS writer), Nixtla StatsForecast, SciPy.
+In review: NVIDIA cuOpt (MPS writer), Nixtla StatsForecast, SciPy, Qoro Divi ([#105](https://github.com/QoroQuantum/divi/pull/105)).
 
 ### Research and projects
 
+- **Student researcher** at [Qoro Quantum](https://github.com/QoroQuantum/divi), working on Divi, their open-source framework for running quantum programs at scale: a fix to the constrained QAOA portfolio cost ([#105](https://github.com/QoroQuantum/divi/pull/105)), an XY-mixer edge-order mismatch between Divi and Qoro's characterisation service (fixed upstream), and benchmarks of constraint-preserving mixers, sector-block mixers and classical baselines
 - **Research assistant** to Prof. Semyon Malamud (Swiss Finance Institute, EPFL), replicating and extending large factor pricing models
 - **WorldQuant BRAIN**: #2 in Italy, Gold Level, 19 submitted alphas
-- **Kaggle**: silver medal, 76th of 4,186 teams, AI Agent Security (OpenAI × Google × IEEE)
+- **Kaggle**: silver medal in my first competition, 76th of 4,186 teams (top 2%), AI Agent Security (OpenAI × Google × IEEE)
 - **[MQFS](https://github.com/nicoloangileri/market-states-mqfs)**: open, reproducible quantitative-finance papers, e.g. [market regimes from correlation structure](https://github.com/nicoloangileri/market-states-mqfs), [electricity risk for AI data centres](https://github.com/nicoloangileri/mqfs-compute-energy), [constraint-preserving QAOA on IBM quantum hardware](https://github.com/nicoloangileri/quantum-portfolio-mqfs)
 - **Qiskit Advocate** (IBM Quantum) and solver of Jane Street's monthly puzzles
 
