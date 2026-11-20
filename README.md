@@ -4,7 +4,7 @@ I build machine-learning and optimization tools for forecasting and quantitative
 
 ### Open source
 
-37 pull requests merged into libraries used across ML, quantum computing and finance
+38 pull requests merged into libraries used across ML, quantum computing and finance
 
 - **OpenAI Tart**: container-registry authentication with spaces between `WWW-Authenticate` directives, as RFC 7235 allows ([#1377](https://github.com/openai/tart/pull/1377))
 - **NVIDIA cuOpt** (2): nightly CI for its CVXPY integration on images without a C++ compiler ([#2101](https://github.com/NVIDIA/cuopt/pull/2101)), and a minimize default for the objective sense of its MPS data model ([#2181](https://github.com/NVIDIA/cuopt/pull/2181))
@@ -22,11 +22,12 @@ I build machine-learning and optimization tools for forecasting and quantitative
 - **Unit8 Darts** (2): conformal prediction intervals ([#3227](https://github.com/unit8co/darts/pull/3227)) and compatibility with pandas 3.1 ([#3289](https://github.com/unit8co/darts/pull/3289))
 - **FinRL** (AI4Finance): tradability check on the price instead of the first indicator in `StockTradingEnv` ([#1456](https://github.com/AI4Finance-Foundation/FinRL/pull/1456))
 - **Pasqal Pulser**: lazy conjugate/negative tensors converted to NumPy without resolving them ([#1130](https://github.com/pasqal-io/Pulser/pull/1130))
+- **Qoro Divi**: constrained QAOA portfolio cost that no longer adds the cardinality penalty under the XY mixer, so the angles of Qoro's characterisation service carry over ([#105](https://github.com/QoroQuantum/divi/pull/105))
 - **gcsopt** (graphs of convex sets): compatibility with the new CVXPY solving chain ([#23](https://github.com/TobiaMarcucci/gcsopt/pull/23))
 - **Open GenAI Stack** (formerly Llama Stack): `before` pagination on the vector store list endpoints, which returned the first page instead of the one right before the cursor ([#6813](https://github.com/ogx-ai/ogx/pull/6813))
 - Also **Qdrant**, **NumPyro** (2) and **Qiskit Experiments**
 
-In review: NVIDIA cuOpt (MPS writer), Nixtla StatsForecast, SciPy, Qoro Divi ([#105](https://github.com/QoroQuantum/divi/pull/105)).
+In review: NVIDIA cuOpt (MPS writer), Nixtla StatsForecast, SciPy.
 
 ### Research and projects
 
